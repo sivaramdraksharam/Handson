@@ -1,0 +1,115 @@
+#4. Sahana and her friend Kodis are given two arrarys of integers of same length. Sahana is required to match her array elements with Kodis's array. Help her find the number of times the increment or decrement that she has to do to make the array elements same. She can either increment her array elements by 3 or decrement them by 2 as many times as she needs to finish her task. Help her count the minimum number of steps in which she can complete the given task.
+ 
+Input:
+The first line consists of the size (n) of the arrays
+The next n lines consists of the n integers of the first array. (Sahana's array)
+The next n lines consists of the n integers of the second array. (Kodi's array)
+ 
+Output:
+The output consists of a single line which contains the number of times the increment or decrement has taken place.
+ 
+Sample Output 1:
+Enter the size of the arrays: 
+3 
+Enter the elements of array 1 
+4
+3
+8 
+Enter the elements of array 2 
+5
+9
+12 
+Result: 7
+ 
+Sample Output 2:
+Enter the size of the arrays: 
+1 
+Enter the elements of array 1 
+5 
+Enter the elements of array 2 
+-3 
+Result: 4
+ 
+ 
+Explanation:
+Consider the first sample input.
+Need to change to array {4,3,8} to {5,9,12}
+
+To change 4 to 5, we need to be increment (by 3) once and decrement (by 2) once. No. of operations is 2.
+To change 3 to 9, we need to be increment (by 3) twice. No. of operations is 2.
+To change 8 to 12, we need to be increment (by 3)twice and decrement (by 2) once. No. of operations is 3.
+
+Minimum number of operations required to convert Sahana's array to Kodi's array is 2+2+3 = 7.
+
+ 
+In the above sample output 2, we have 5 at index 0 in array 1 and -3 at same index 0 in array 2. Since the difference between the two is 8, the value 5 is decremented by 2, 4 times to get the value of -3.
+==========================================================###############==============
+#5. Roman Numbers
+Reference Code : p5Complexity : Level2
+Few people in Rome know only roman letters for expressing the numbers. They are planning to visit England for their business establishment. Their problem is with the number expression. They need an application which converts the roman string to numbers.
+Write a prigram to build that appication.
+
+Input:
+An String is given which is the roman number.
+
+Output:
+
+The number has to be printed.
+ 
+
+Note:
+The Input Number range is 1 to 89.
+(I - 1, V – 5, X – 10, L – 50)
+
+ 
+Sample Input1:
+VIII
+Sample Output 1:
+8
+ 
+Sample input 2:
+XXXV
+Sample Output 2:
+35
+
+==================##################===================
+#6. Flickering Bulbs
+
+Consider there are n bulbs in a room. Due to voltage fluctuation the bulbs start flickering. Each bulb will flicker at different intervals. 
+Write a program to find the first coincidence that all the bulbs will flicker together. 
+
+
+[Note:] There will be only positive integers. Use singular and plurals while printing. 
+
+Input Format: 
+The first line consists of n number of bulbs 
+Then n lines consists of n elements which denotes the ith second that each bulb flicker 
+
+Output Format: 
+The ouput will be the coincided second at all bulb will flicker
+Sample Input/Output 1:
+
+Enter number of bulbs 
+3 
+Enter the flicker second of bulb 1 : 
+5 
+Enter the flicker second of bulb 2 : 
+8 
+Enter the flicker second of bulb 3 : 
+7 
+From now, all bulbs will flicker after 280 seconds
+Sample Input/Output 2:
+
+Enter number of bulbs 
+3 
+Enter the flicker second of bulb 1 : 
+1 
+Enter the flicker second of bulb 2 : 
+1 
+Enter the flicker second of bulb 3 : 
+1 
+From now, all bulbs will flicker after 1 second 
+
+==================================
+
+

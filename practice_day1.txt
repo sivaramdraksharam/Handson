@@ -1,0 +1,166 @@
+#1.Calculate Number of Days
+Reference Code : p3Complexity : Level2
+=======================================
+Ram was weak in mathematics. One day his Maths teacher asked him to find out the number of days he lived on the earth and that was his homework. Since he was weak in mathematics he doesn't know how to calculate the number of days between two date. Guide him by a program that find number of days between the given two  given dates.
+
+ 
+[Note:] Consider singular and plurals while printing. First date can be earlier than second date and vice versa.
+[Constarints :] If any one of the date is not valid, then print “Invalid Date” else print number of days between two dates(Inclusive).
+
+ 
+Input Format :
+Read day1,month1,year1 and day2,month2,year2 line by line from the user
+Output Format :
+Print No of days between two dates (Inclusive).
+ 
+
+
+Sample Input/Output Example 1:
+Enter Date1
+Enter day
+1
+Enter month
+1
+Enter year
+2016
+Enter Date2
+Enter day
+31
+Enter month
+12
+Enter year
+2016
+366 days
+ 
+ 
+
+Sample Input/Output Example 2:
+
+Enter Date1
+
+Enter day
+32
+Enter month
+3
+Enter year
+2016
+Enter Date2
+Enter day
+21
+Enter month
+1
+Enter year
+2017
+Invalid Date
+ 
+Sample Input/Output Example 3:
+Enter Date1
+Enter day
+3
+Enter month
+3
+Enter year
+2016
+Enter Date2
+Enter day
+3
+Enter month
+3
+Enter year
+2016
+1 day
+ 
+=======================#############################====================
+#2.Rajee's Tasting Experience
+
+==========================================
+Rajee attended a tasting party hosted by a restaurant. The dishes were arranged on a number of tables randomly such that the table arrangement resembled a matrix. The participants were allowed to taste all the dishes that they can reach from their table. Assuming that a Rajee can reach all the tables surrounding her, help her find a table from where she can taste the maximum number of dishes.
+ 
+Input Format:
+The first line conists of the number of rows(m) of the matrix arrangement.
+The second line consists of the number of columns(n) of the matrix arrangement
+The next m*n lines consists of the number of dishes in each table.
+ 
+Output Format:
+The output consists of the coordinates for the optimal table where she could taste the maximum number of dishes.
+
+[All elements in Bold corresponds to Input and the rest corresponds to the Output]
+Sample Output 1:
+Enter the number of rows and columns:
+3
+3
+Enter the matrix elements
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Result: x:2 y:2 45
+ 
+Sample Output 2:
+Enter the number of rows and columns:
+5
+5
+Enter the matrix elements
+47
+15
+40
+32
+30
+41
+4
+30
+6
+48
+15
+38
+44
+20
+9
+9
+3
+5
+30
+15
+13
+44
+2
+41
+30
+Result: x:2 y:2 274
+  
+====================#################=============
+#3.Jose Pattern
+Jose, the programmer, an inquisitive person who always approaches the problem differently. His profession is a artist and a school teacher as well. Everyday he teaches many school kids. One day, he asks the kids to create some patterns when some integer is given. Jose, being a programmer, he wants to automate and excite the school kids using programming skills. Come, Lets help jose.
+ 
+Input:
+Input is an integer that corresponds to the n value.
+ 
+Output:
+Refer Sample test cases.
+Note:
+n is always odd and is greater than or equal to 1.
+ 
+
+Sample Input 1: 
+3 
+Sample Output 1: 
+* * *
+* * *
+* * *
+ 
+ 
+Sample Input 2: 
+7
+Sample Output 2:
+* - - * - - *
+- * - * - * -
+- - * * * - -
+* * * * * * *
+- - * * * - -
+- * - * - * -
+* - - * - - *
